@@ -1,7 +1,7 @@
 // import Swiper JS
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 // import Swiper styles
-import 'swiper/css';
+// import 'swiper/css';
 
 
 let navbar = document.querySelector('.header .navbar');
@@ -75,7 +75,7 @@ var swiper = new Swiper(".product-slider", {
         },
     },
 });
-const swiper = new Swiper(".review-slider", {
+var swiper = new Swiper(".review-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
@@ -95,7 +95,7 @@ const swiper = new Swiper(".review-slider", {
         },
     },
 });
-const swiper = new Swiper(".blogs-slider", {
+var swiper = new Swiper(".blogs-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
@@ -115,7 +115,7 @@ const swiper = new Swiper(".blogs-slider", {
         },
     },
 });
-const swiper = new Swiper(".clients-slider", {
+var swiper = new Swiper(".clients-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
