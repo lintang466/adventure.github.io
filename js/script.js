@@ -52,7 +52,7 @@ var swiper = new Swiper(".home-slider", {
         prevEl: ".swiper-button-prev",
     },
 });
-const swiper = new Swiper(".product-slider", {
+var swiper = new Swiper(".product-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
