@@ -75,7 +75,7 @@ const swiper = new Swiper(".product-slider", {
         },
     },
 });
-var swiper = new Swiper(".review-slider", {
+const swiper = new Swiper(".review-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
@@ -95,7 +95,7 @@ var swiper = new Swiper(".review-slider", {
         },
     },
 });
-var swiper = new Swiper(".blogs-slider", {
+const swiper = new Swiper(".blogs-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
@@ -115,7 +115,7 @@ var swiper = new Swiper(".blogs-slider", {
         },
     },
 });
-var swiper = new Swiper(".clients-slider", {
+const swiper = new Swiper(".clients-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
