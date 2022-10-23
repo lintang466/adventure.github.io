@@ -1,3 +1,9 @@
+// import Swiper JS
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/css';
+
+
 let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () => {
@@ -46,7 +52,7 @@ var swiper = new Swiper(".home-slider", {
         prevEl: ".swiper-button-prev",
     },
 });
-var swiper = new Swiper(".product-slider", {
+const swiper = new Swiper(".product-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
